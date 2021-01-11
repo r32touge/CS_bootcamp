@@ -1,0 +1,5 @@
+# single line wget infinite loop for stress testing
+while true; do wget <IP ADDRESS>; done
+
+#single line for loop ssh login for testing (500 attempts)
+for i in {1..500}; do ssh <username@IP_ADDRESS>; done
